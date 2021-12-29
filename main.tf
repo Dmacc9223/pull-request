@@ -12,6 +12,3 @@ provider "aws" {
     instance = aws_instance.ubuntu.id
   }
 
-  output "EIP" {
-    value = aws_eip.elastic_ip.public_ip
-  }
